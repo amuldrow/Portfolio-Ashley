@@ -1,3 +1,101 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header-Nav Styles*/
+
+header {
+    padding: 20px 35px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: white;
+    text-shadow: blue;
+}
+
+header a {
+    text-decoration: none;
+    color:white;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+    list-style: none;
+}
+
+header nav ul li a:hover {
+    background: hotpink;
+    color: white;
+    border-radius: 15px;
+    text-shadow: lightpink;
+}
+
+/* Hero styles */
+.hero {
+    background-image: url('../images/colorfulbg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+.hero-subtitle {
+    width: 60%;
+    text-align: center;
+    margin: 3.5%;
+    color: black;
+    font-size: 25px;
+    line-height: 2;
+}
+ .hero-subtitle h2 {
+    font-style:oblique;
+    font-size: 55px;
+    color: black;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5) 
+ }
+
+ /* section styles */
+ .section-title {
+     font-size: 48px;
+     border-bottom: 3px solid;
+     color: black;
+     padding-bottom: 20px;
+     text-align:center;
+     margin: 0 auto 35px auto;
+     width: 50%;
+     background-color: lightpink;
+
+ }
+
+ .primary-border {
+     border-color: black;
+ }
+ 
+
