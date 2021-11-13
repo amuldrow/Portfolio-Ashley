@@ -97,5 +97,25 @@ header nav ul li a:hover {
  .primary-border {
      border-color: black;
  }
+
+ /* About me styles */
+ .aboutme {
+     background:whitesmoke;
+     flex-wrap: wrap;
+ }
+
+ .aboutme-img {
+    width: 100%;
+    float: left;
+ }
+
+ .aboutme-text p {
+     color:black;
+     font-size: 18px;
+     text-align: right;
+     font: arial;
+    
+ }
  
+
 
