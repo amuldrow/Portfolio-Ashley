@@ -9,3 +9,4 @@ This portfolio was created as a resource to provide to future employers to showc
 ## This is the URL to my Github repository: https://github.com/amuldrow/Portfolio-Ashley.git
 
 ## This is a screenshot of my portfolio
+![image](https://user-images.githubusercontent.com/92446866/141691817-a7f5deb4-20c1-48fa-af76-0fd9ebdeb271.png)
