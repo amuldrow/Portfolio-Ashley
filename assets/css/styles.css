@@ -162,33 +162,7 @@ header nav ul li a:hover {
  .project-bio p {
      font-size: 17px;
  }
- /* .span-background {
-     position: absolute;
-     bottom: 8px;
-     right: 16px;
- } */
-
- /* .span-background {
-     background-color: whitesmoke;
-     position: relative;
-     line-height: 1.5;
-     padding-left: 8px;
-     padding-right: 8px;
-     border-radius: 5%;
-     opacity: .8;
- }
- .span-background h3 {
-     margin-top: 10px;
-     margin-bottom: 30px;
- }
-
- .span-background .opacity {
-     opacity: .80;
-     font-size: 35px;
- }
- .span-background.lower-text {
-     font-size: x-small;
- } */
+ 
 
  /*Contact Me Styles */
  .contact {
