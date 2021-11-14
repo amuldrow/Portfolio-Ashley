@@ -33,11 +33,12 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color:white;
+    color: whitesmoke;
 }
 
 header nav {
     margin: 7px 0;
+    flex-grow: 0.5;
 }
 
 header nav ul{
@@ -100,22 +101,104 @@ header nav ul li a:hover {
 
  /* About me styles */
  .aboutme {
-     background:whitesmoke;
-     flex-wrap: wrap;
- }
-
- .aboutme-img {
-    width: 100%;
-    float: left;
- }
-
- .aboutme-text p {
-     color:black;
-     font-size: 18px;
-     text-align: right;
-     font: arial;
+     
+     display: flex;
     
  }
- 
+.container{
+    display: flex;
+    align-items: center;
+    background:whitesmoke;
+}
+  .aboutme-img {
+    flex: 0 0 20%;
+ }
 
+
+ .aboutme-text {
+     color:black;
+     font-size: 18px;
+     /* text-align: right; */
+     font: arial;
+     display: flex;
+     /* flex: 0 0 70%; */
+    
+ }
+ /* Projects section*/
+
+ .projects {
+     width: 100%;
+     margin: 0 auto;
+     display: flex;
+     flex-wrap:wrap;
+     justify-content: space-around;
+     background-color: lightpink;
+ }
+
+ .project-1, .project-2 {
+     margin: 20px;
+     flex: 1;
+     color: black;
+ }
+
+.project-1 img {
+    width: 600px;
+    height: 400px;
+    align:center;
+}
+ .project-2 img {
+     width: 500px;
+     height: 300px;
+     align:center;
+ }
+
+ .project-bio {
+     padding:25px;
+     line-height: 1.3;
+ }
+
+ .project-bio h3{
+     font-size: 28px;
+ }
+
+ .project-bio p {
+     font-size: 17px;
+ }
+
+ /*Contact Me Styles */
+ .contact {
+     background:lightpink;
+ }
+
+ .ContactText{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin: 20px 0;
+     line-height: 1.5;
+     font-style:normal;
+     font-weight: bold;
+     font-size: 20px;
+     box-align:center;
+ }
+
+ .contact-infromation h3{
+     color:black;
+     font-size: 30px;
+ }
+
+  .contactinfo img {
+    width: 200px;
+    height: 100px;
+    box-align:center;
+}
+
+
+ /*Footer styles */
+ 
+ footer {
+     text-align: center;
+     display: flex;
+    background-color: white;
+ }
 
